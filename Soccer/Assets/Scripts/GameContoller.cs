@@ -9,9 +9,6 @@ public class GameContoller : MonoBehaviour {
     GameObject ballPrefab;
 
     [SerializeField]
-    Rigidbody rb;
-
-    [SerializeField]
     float ballForce;
 
     GameObject ballInstance;
@@ -48,7 +45,8 @@ public class GameContoller : MonoBehaviour {
 
                 ballInstance.transform.LookAt(hitPos);
 
-                rb.AddRelativeForce(Vector3.forward * ballForce, ForceMode.Impulse);
+               // ballInstance.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * ballForce, ForceMode.Impulse);
+                ballInstance.GetComponent<Rigidbody>().AddRelativeForce(ballInstance.transform.forward * ballForce, ForceMode.Impulse);
             }
         }
 
