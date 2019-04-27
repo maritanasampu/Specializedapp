@@ -47,6 +47,8 @@ public class GameContoller : MonoBehaviour {
 
                // ballInstance.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * ballForce, ForceMode.Impulse);
                 ballInstance.GetComponent<Rigidbody>().AddRelativeForce(ballInstance.transform.forward * ballForce, ForceMode.Impulse);
+
+                Invoke("CreateBall", 3f);
             }
         }
 
