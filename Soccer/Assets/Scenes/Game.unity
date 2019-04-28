@@ -858,9 +858,13 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11100000, guid: 6e695732fb04092429f277913c7a7691, type: 3}
+      propertyPath: m_Animations.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400042, guid: 6e695732fb04092429f277913c7a7691, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.33
       objectReference: {fileID: 0}
     - target: {fileID: 400042, guid: 6e695732fb04092429f277913c7a7691, type: 3}
       propertyPath: m_LocalPosition.y
@@ -893,6 +897,50 @@ Prefab:
     - target: {fileID: 400042, guid: 6e695732fb04092429f277913c7a7691, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 100042, guid: 6e695732fb04092429f277913c7a7691, type: 3}
+      propertyPath: m_Name
+      value: Goalkeeper
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 6e695732fb04092429f277913c7a7691, type: 3}
+      propertyPath: m_CullingType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 6e695732fb04092429f277913c7a7691, type: 3}
+      propertyPath: m_AnimatePhysics
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 6e695732fb04092429f277913c7a7691, type: 3}
+      propertyPath: m_PlayAutomatically
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 6e695732fb04092429f277913c7a7691, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: 4578af7fe20414ec78098d7de1fa9d2d, type: 2}
+    - target: {fileID: 11100000, guid: 6e695732fb04092429f277913c7a7691, type: 3}
+      propertyPath: m_Animations.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 400020, guid: 6e695732fb04092429f277913c7a7691, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 6e695732fb04092429f277913c7a7691, type: 3}
+      propertyPath: m_Animations.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 6e695732fb04092429f277913c7a7691, type: 3}
+      propertyPath: m_Animations.Array.data[2]
+      value: 
+      objectReference: {fileID: 7400000, guid: 4578af7fe20414ec78098d7de1fa9d2d, type: 2}
+    - target: {fileID: 400040, guid: 6e695732fb04092429f277913c7a7691, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400062, guid: 6e695732fb04092429f277913c7a7691, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e695732fb04092429f277913c7a7691, type: 3}
