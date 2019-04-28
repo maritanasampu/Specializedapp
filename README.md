@@ -10,3 +10,6 @@ Ise tegin ma just selle väravavahi liikumise ja lisasin teise vaate, kus saab m
 ![start_game_view](start_game_view.jpg)
 
 ![game_view](game_view.jpg)
+
+Selleks, et mängu teha Unity's Androidi jaoks, oli mul vaja muuta Build Settings ja sealt lisada Android mooduli ning
+ enda telefoni lisada Unity Remote programm. Programmi kasutamiseks muutsin projekti seadeid editor'i alt.
