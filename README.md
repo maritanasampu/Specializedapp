@@ -6,3 +6,7 @@ Valisin selle juhendi sest mulle meeldis, kuidas juhendaja asju seletas - väga 
 Ise tegin ma just selle väravavahi liikumise ja lisasin teise vaate, kus saab mängu alustada.
 
 Õppisin ma sellest juhendist väga palju, sest eriline kogemus Unity'ga mul puudub ja peaaegu kõik, mis tegin, oli uus. See, mida olin varem teinud, oli ka unustatud.
+
+![start_game_view](start_game_view.jpg)
+
+![game_view](game_view.jpg)
